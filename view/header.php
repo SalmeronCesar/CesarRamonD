@@ -10,7 +10,7 @@ and open the template in the editor.
         <!--This creates an image on the tab-->
   <link rel="SHORTCUT ICON" href="http://hdwebm.com/wp-content/uploads/2014/09/cool-wallpaper-hd-for-boys.jpg"/>
   <!--The title of the tab/website-->
-  <title>Cesars-Blog</title>
+  <title>www.Sell Em.com</title>
         <meta charset="UTF-8">
         <title></title>
         <!--These are links to the bootstrap and css-->
@@ -27,6 +27,6 @@ and open the template in the editor.
                 <!-- end navmenu -->
                 <!--This is the jumbotron a image or text that will be enlarged-->
                 <div class="jumbotron">
-  <h1>Hello and welcome to my Blog!</h1>     
+  <h1>Welcome to Sell Em</h1>     
 </div> 
         </body>

@@ -4,12 +4,27 @@
   <link rel="SHORTCUT ICON" href="https://c1.staticflickr.com/3/2653/5827241978_fd048cb82e_z.jpg"/>
         <meta charset="UTF-8">
         <!--These are links to the bootstrap and css-->
-        <link type="text/css" rel="stylesheet" href="custom-style.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
-        <title>Sell Em</title>
+        <link type="text/css" rel="stylesheet" href="custom-style.css">
+        <title>www.Sell Em.com</title>
     </head>
     <body>
+<!--        <ul class="nav-wrapper">
+            <li class="m1"><a href="index.php">
+    <span class="t">Home</span>
+    </a></li>
+    <li class="m2"><a href="login.php">
+    <span class="t">Login</span>
+    </a></li>
+    <li class="m3"><a href="register.php">
+    <span class="t">Register</span>
+    </a></li>
+  <li class="m4"><a href="logout-user.php">
+    <span class="t">Logout</span>
+    </a></li>
+</ul>-->
+         <iframe src="http://free.timeanddate.com/clock/i4omu1na/n137/fn15/fs20/ftb/tt0/tw0/tm1/tb4" frameborder="0" width="116" height="48"></iframe>
         <div class="container">
             <!-- start navmenu -->
         <div id="nav">
@@ -21,35 +36,14 @@
             <p>Sell, Buy and Trade.</p>
         </div>
             </div>
-             <div id="category1">
 
-        <ul id="posts">
-            <li>Motors</li>
-            <li>Fashion</li>
-            <li>Sporting goods</li>
-        </ul><!-- #posts -->
-
-    </div><!-- #category1 -->
-
-    <div id="category2">
-
-        <div id="sub-category1">
-
-            <ul id="posts">
-                <li>Home & Garden</li>
-                <li>Electronics</li>
-                <li>Jewelry</li>
-            </ul><!-- #posts -->
-
-        </div><!-- #sub-category1 -->
-
-<!--        <div id="sub-category2">
-
-            <ul id="posts">
-                <li>post7</li>
-                <li>post8</li>
-                <li>post9</li>
-            </ul> #posts -->
+                </div>
+            </div>
+        </div>
+        <div id="nav">
+            <!--The links to login.php, index.php, and to logout-user.php-->
+                <a href="motors.php">Motor</a><a href="fashion.php">Fashion</a><a href="sportinggoods.php">Sporting Goods</a><a href="Home&Garden.php">Home&Garden</a><a href="Electronics.php">Electronics</a><a href="Jewelry.php">Jewelry</a>
+                <!-- end navmenu -->
     </body>
     </html>
 <style>
@@ -70,11 +64,6 @@
                 color: whitesmoke;
             }
         </style>
-<?php
-//The time 
-date_default_timezone_set("America/Los_Angeles");
-echo "The time is " . date("h:i:sa");
-?>
 <?php
 //These link are linked into the index,login-verify, navigation,create-db-read-posts, and the footer.
 require_once(__DIR__ . "/controller/login-verify.php");
