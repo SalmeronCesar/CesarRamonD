@@ -10,7 +10,7 @@
         <title>www.Sell Em.com</title>
     </head>
     <body>
-<!--        <ul class="nav-wrapper">
+        <ul class="nav-wrapper">
             <li class="m1"><a href="index.php">
     <span class="t">Home</span>
     </a></li>
@@ -23,7 +23,7 @@
   <li class="m4"><a href="logout-user.php">
     <span class="t">Logout</span>
     </a></li>
-</ul>-->
+</ul>
          <iframe src="http://free.timeanddate.com/clock/i4omu1na/n137/fn15/fs20/ftb/tt0/tw0/tm1/tb4" frameborder="0" width="116" height="48"></iframe>
         <div class="container">
             <!-- start navmenu -->
@@ -44,6 +44,45 @@
             <!--The links to login.php, index.php, and to logout-user.php-->
                 <a href="motors.php">Motor</a><a href="fashion.php">Fashion</a><a href="sportinggoods.php">Sporting Goods</a><a href="Home&Garden.php">Home&Garden</a><a href="Electronics.php">Electronics</a><a href="Jewelry.php">Jewelry</a>
                 <!-- end navmenu -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="http://www.hdwallpapers.in/walls/need_for_speed_prostreet-HD.jpg" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://www.hdwallpapers.in/walls/need_for_speed_prostreet-HD.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="img_chania2.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="img_flower.jpg" alt="Flower">
+    </div>
+
+    <div class="item">
+      <img src="img_flower2.jpg" alt="Flower">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
     </body>
     </html>
 <style>

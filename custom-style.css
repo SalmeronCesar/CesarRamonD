@@ -1,4 +1,4 @@
-/*.nav-wrapper, .nav-wrapper li {
+.nav-wrapper, .nav-wrapper li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -61,7 +61,7 @@ a {
 }
 .nav-wrapper .m4 {
   background: #9A2C15;
-}*/
+}
 
 /*This connects to my jumbotron in my header.php and putiing the color to whitesmoke 
 and putting the text-align to center.*/
