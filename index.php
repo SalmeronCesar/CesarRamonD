@@ -60,7 +60,7 @@
     </div>
 
     <div class="item">
-      <img src="img_chania2.jpg" alt="Chania">
+      <img src="img_chania2" alt="Chania">
     </div>
 
     <div class="item">
@@ -83,6 +83,11 @@
   </a>
 </div>
 
+                <details>
+  <summary>Details and Price</summary>
+  <p>Nissan Gtr.</p>
+  <p>Price: $35k</p>
+</details>
     </body>
     </html>
 <style>
