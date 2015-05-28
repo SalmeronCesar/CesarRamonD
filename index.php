@@ -10,20 +10,6 @@
         <title>www.Sell Em.com</title>
     </head>
     <body>
-        <ul class="nav-wrapper">
-            <li class="m1"><a href="index.php">
-    <span class="t">Home</span>
-    </a></li>
-    <li class="m2"><a href="login.php">
-    <span class="t">Login</span>
-    </a></li>
-    <li class="m3"><a href="register.php">
-    <span class="t">Register</span>
-    </a></li>
-  <li class="m4"><a href="logout-user.php">
-    <span class="t">Logout</span>
-    </a></li>
-</ul>
          <iframe src="http://free.timeanddate.com/clock/i4omu1na/n137/fn15/fs20/ftb/tt0/tw0/tm1/tb4" frameborder="0" width="116" height="48"></iframe>
         <div class="container">
             <!-- start navmenu -->
@@ -40,31 +26,31 @@
                 </div>
             </div>
         </div>
-        <div id="nav">
-            <!--The links to login.php, index.php, and to logout-user.php-->
+<!--        <div id="nav">
+            The links to login.php, index.php, and to logout-user.php
                 <a href="motors.php">Motor</a><a href="fashion.php">Fashion</a><a href="sportinggoods.php">Sporting Goods</a><a href="Home&Garden.php">Home&Garden</a><a href="Electronics.php">Electronics</a><a href="Jewelry.php">Jewelry</a>
-                <!-- end navmenu -->
+                 end navmenu -->
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="http://www.hdwallpapers.in/walls/need_for_speed_prostreet-HD.jpg" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="http://www.mikefordmustang.com/pictures/front_web.jpg" data-slide-to="0" class="active"></li>
+    <li data-target="http://images.menswearhouse.com/is/image/TMW/MW40_359F_67_MICHAEL_KORS_BLUE_PLAID_SET?wid=1200&hei=627" data-slide-to="1"></li>
+    <li data-target="https://silverrockfunding.com/images/sporting_goods_store.jpg" data-slide-to="2"></li>
     <li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="http://www.hdwallpapers.in/walls/need_for_speed_prostreet-HD.jpg" alt="Chania">
+      <img src="http://www.mikefordmustang.com/pictures/front_web.jpg" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="img_chania2" alt="Chania">
+      <img src="http://images.menswearhouse.com/is/image/TMW/MW40_359F_67_MICHAEL_KORS_BLUE_PLAID_SET?wid=1200&hei=627" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="img_flower.jpg" alt="Flower">
+      <img src="https://silverrockfunding.com/images/sporting_goods_store.jpg" alt="Flower">
     </div>
 
     <div class="item">
@@ -85,8 +71,8 @@
 
                 <details>
   <summary>Details and Price</summary>
-  <p>Nissan Gtr.</p>
-  <p>Price: $35k</p>
+  <p>2006 Mustang Cobra </p>
+  <p>Asking $12k</p>
 </details>
     </body>
     </html>
